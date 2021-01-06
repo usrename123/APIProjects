@@ -71,12 +71,12 @@ public class payloadStudent extends TestBase {
 
     }
 
-    public static String StudentPayload() throws FileNotFoundException, IOException, ParseException {
+        public static String StudentPayload() throws FileNotFoundException, IOException, ParseException {
         JSONParser parser = new JSONParser();
         Object obj = parser.parse(new FileReader(
                 "C:\\restAssure\\src\\main\\java\\com\\aruna\\restassured\\Restassured_M\\Utilities\\Utilities\\Studentpayload.json"));
         JSONObject jsonObject = (JSONObject) obj;
-
+        logger.log(LogStatus.INFO, "My path worked with double forward slashes");
         return jsonObject.toJSONString();
 
     }
