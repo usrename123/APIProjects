@@ -76,7 +76,7 @@ public class payloadStudent extends TestBase {
         Object obj = parser.parse(new FileReader(
                 "C:\\restAssure\\src\\main\\java\\com\\aruna\\restassured\\Restassured_M\\Utilities\\Utilities\\Studentpayload.json"));
         JSONObject jsonObject = (JSONObject) obj;
-        logger.log(LogStatus.INFO, "My path worked with double forward slashes");
+        logger.log(LogStatus.INFO, "My path worked with double \\  slashes");
         return jsonObject.toJSONString();
 
     }
