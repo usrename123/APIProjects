@@ -1,0 +1,10 @@
+com\aruna\restassured\Restassured_testng\Restassured_testng.class
+com\aruna\restassured\Folder\addData.class
+com\aruna\restassured\studentAsignment\payloadStudent.class
+com\aruna\restassured\studentAsignment\APIStudentParsing.class
+com\aruna\restassured\jira_restAPI\postman_jira_restAPI.class
+com\aruna\restassured\Folder\Get_data.class
+com\aruna\restassured\Folder\Get_Token.class
+com\aruna\restassured\complexJsonValidations\payload_validation.class
+com\aruna\restassured\PayloadTesla\TeslaAPI.class
+com\aruna\restassured\AppTest.class

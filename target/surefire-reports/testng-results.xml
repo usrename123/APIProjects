@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-04T13:50:26 PST" name="suite1" finished-at="2021-01-04T13:50:29 PST" duration-ms="3391">
+    <groups>
+    </groups>
+    <test started-at="2021-01-04T13:50:26 PST" name="regression" finished-at="2021-01-04T13:50:29 PST" duration-ms="3391">
+      <class name="com.aruna.restassured.studentAsignment.APIStudentParsing">
+        <test-method signature="Student_payload_validation()[pri:0, instance:com.aruna.restassured.studentAsignment.APIStudentParsing@568ff82]" started-at="2021-01-04T13:50:26 PST" name="Student_payload_validation" finished-at="2021-01-04T13:50:28 PST" duration-ms="2108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Student_payload_validation -->
+      </class> <!-- com.aruna.restassured.studentAsignment.APIStudentParsing -->
+      <class name="com.aruna.restassured.studentAsignment.payloadStudent">
+        <test-method is-config="true" signature="started()[pri:0, instance:com.aruna.restassured.studentAsignment.payloadStudent@f2ff811]" started-at="2021-01-04T13:50:25 PST" name="started" finished-at="2021-01-04T13:50:26 PST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- started -->
+        <test-method signature="studentData_validation()[pri:0, instance:com.aruna.restassured.studentAsignment.payloadStudent@f2ff811]" started-at="2021-01-04T13:50:28 PST" name="studentData_validation" finished-at="2021-01-04T13:50:28 PST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentData_validation -->
+        <test-method is-config="true" signature="ended()[pri:0, instance:com.aruna.restassured.studentAsignment.payloadStudent@f2ff811]" started-at="2021-01-04T13:50:29 PST" name="ended" finished-at="2021-01-04T13:50:29 PST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ended -->
+      </class> <!-- com.aruna.restassured.studentAsignment.payloadStudent -->
+      <class name="com.aruna.restassured.PayloadTesla.TeslaAPI">
+        <test-method signature="Parsing_data()[pri:0, instance:com.aruna.restassured.PayloadTesla.TeslaAPI@50caa560]" started-at="2021-01-04T13:50:26 PST" name="Parsing_data" finished-at="2021-01-04T13:50:27 PST" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parsing_data -->
+        <test-method signature="Get_All_BlueCars()[pri:1, instance:com.aruna.restassured.PayloadTesla.TeslaAPI@50caa560]" started-at="2021-01-04T13:50:27 PST" name="Get_All_BlueCars" finished-at="2021-01-04T13:50:28 PST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_All_BlueCars -->
+        <test-method signature="PerDay_Rental()[pri:2, instance:com.aruna.restassured.PayloadTesla.TeslaAPI@50caa560]" started-at="2021-01-04T13:50:28 PST" name="PerDay_Rental" finished-at="2021-01-04T13:50:29 PST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerDay_Rental -->
+      </class> <!-- com.aruna.restassured.PayloadTesla.TeslaAPI -->
+    </test> <!-- regression -->
+  </suite> <!-- suite1 -->
+</testng-results>

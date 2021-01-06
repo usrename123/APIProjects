@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="suite1" parallel="classes" thread-count="2">
+  
+    <test name="regression">
+    
+      <classes>
+        <class name="com.aruna.restassured.studentAsignment.payloadStudent"/>
+        <class name="com.aruna.restassured.studentAsignment.APIStudentParsing"/>
+        <class name="com.aruna.restassured.PayloadTesla.TeslaAPI"/>
+     
+      </classes>
+    </test>
+  </suite>
