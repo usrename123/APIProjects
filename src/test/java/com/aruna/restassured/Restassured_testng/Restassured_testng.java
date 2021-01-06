@@ -1,6 +1,7 @@
 package com.aruna.restassured.Restassured_testng;
 
 import org.apache.http.util.Asserts;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -28,6 +29,7 @@ public class Restassured_testng {
         String Token = js.getString("token");
         trimed_token = Token.trim().toString();
 System.out.println(trimed_token);
+
     }
 
     @Test
