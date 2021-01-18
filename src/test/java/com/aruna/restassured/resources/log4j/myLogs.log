@@ -29,3 +29,4 @@ First student address is[{city=Manhaton, state=NewYork}, {city=Milpitas, state=C
 second student's state[california, Taxas]
 get all the cities[san francisco, san jose]
 get all the contacts[san francisco, san jose]
+Data is successfully retrived from the weather API for san jose city
