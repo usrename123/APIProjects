@@ -28,7 +28,7 @@ public class APIStudentParsing extends TestBase {
         JsonPath js = new JsonPath(response1);
         System.out.print(js.getString("studentdata1"));
         List<String> allstudents = js.get("Students");
-        System.out.println(allstudents);
+        System.out.println("\nList of Array Students"+allstudents);
         int StudentsArray_size=js.get("Students.size()");
         System.out.println(StudentsArray_size);
         int ID_student = js.get("Students.UserId[8]");
